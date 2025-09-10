@@ -21,3 +21,4 @@ for test_input in test_inputs:
             print(f"Error: {response.status_code}")
     except Exception as e:
         print(f"Error: {e}")
+

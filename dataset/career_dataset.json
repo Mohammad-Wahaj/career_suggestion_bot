@@ -1,0 +1,426 @@
+{
+  "training_data": [
+    {
+      "text": "I love programming and working with computers",
+      "language": "english",
+      "intent": "career_advice",
+      "interests": ["programming", "computers", "technology"],
+      "careers": ["Software Engineer", "Data Scientist", "AI/ML Engineer", "Web Developer", "Mobile App Developer"]
+    },
+    {
+      "text": "I want to help people and work in healthcare",
+      "language": "english", 
+      "intent": "career_advice",
+      "interests": ["helping people", "healthcare", "medical"],
+      "careers": ["Doctor", "Nurse", "Pharmacist", "Physical Therapist", "Healthcare Administrator"]
+    },
+    {
+      "text": "I enjoy business and making money",
+      "language": "english",
+      "intent": "career_advice", 
+      "interests": ["business", "money", "finance"],
+      "careers": ["Business Analyst", "Financial Analyst", "Investment Banker", "Entrepreneur", "Sales Manager"]
+    },
+    {
+      "text": "I love art and being creative",
+      "language": "english",
+      "intent": "career_advice",
+      "interests": ["art", "creative", "design"],
+      "careers": ["Graphic Designer", "Artist", "Interior Designer", "Fashion Designer", "Animator"]
+    },
+    {
+      "text": "I want to teach and work with students",
+      "language": "english",
+      "intent": "career_advice",
+      "interests": ["teaching", "students", "education"],
+      "careers": ["Teacher", "Professor", "Educational Administrator", "Tutor", "School Counselor"]
+    },
+    {
+      "text": "I like building things and engineering",
+      "language": "english",
+      "intent": "career_advice",
+      "interests": ["building", "engineering", "construction"],
+      "careers": ["Mechanical Engineer", "Civil Engineer", "Electrical Engineer", "Aerospace Engineer", "Industrial Engineer"]
+    },
+    {
+      "text": "I want to do research and work in science",
+      "language": "english",
+      "intent": "career_advice",
+      "interests": ["research", "science", "laboratory"],
+      "careers": ["Research Scientist", "Biologist", "Chemist", "Physicist", "Data Analyst"]
+    },
+    {
+      "text": "I want to work in law and justice",
+      "language": "english",
+      "intent": "career_advice",
+      "interests": ["law", "justice", "legal"],
+      "careers": ["Lawyer", "Judge", "Paralegal", "Legal Assistant", "Court Reporter"]
+    },
+    {
+      "text": "I love sports and fitness",
+      "language": "english",
+      "intent": "career_advice",
+      "interests": ["sports", "fitness", "exercise"],
+      "careers": ["Personal Trainer", "Sports Coach", "Athletic Trainer", "Sports Medicine Physician", "Fitness Instructor"]
+    },
+    {
+      "text": "I want to work in media and communication",
+      "language": "english",
+      "intent": "career_advice",
+      "interests": ["media", "communication", "journalism"],
+      "careers": ["Journalist", "News Anchor", "Public Relations Specialist", "Media Producer", "Content Creator"]
+    },
+    {
+      "text": "mujhe computer aur programming mein interest hai",
+      "language": "roman_urdu",
+      "intent": "career_advice",
+      "interests": ["computer", "programming", "technology"],
+      "careers": ["Software Engineer", "Data Scientist", "AI/ML Engineer", "Web Developer", "Mobile App Developer"]
+    },
+    {
+      "text": "mujhe medicine mein interest hai aur logo ki madad karna pasand hai",
+      "language": "roman_urdu",
+      "intent": "career_advice",
+      "interests": ["medicine", "helping people", "healthcare"],
+      "careers": ["Doctor", "Nurse", "Pharmacist", "Physical Therapist", "Healthcare Administrator"]
+    },
+    {
+      "text": "mujhe business aur marketing mein interest hai",
+      "language": "roman_urdu",
+      "intent": "career_advice",
+      "interests": ["business", "marketing", "finance"],
+      "careers": ["Business Analyst", "Marketing Manager", "Financial Analyst", "Entrepreneur", "Sales Manager"]
+    },
+    {
+      "text": "mujhe art aur design mein interest hai",
+      "language": "roman_urdu",
+      "intent": "career_advice",
+      "interests": ["art", "design", "creative"],
+      "careers": ["Graphic Designer", "Artist", "Interior Designer", "Fashion Designer", "Animator"]
+    },
+    {
+      "text": "mujhe teaching aur education mein interest hai",
+      "language": "roman_urdu",
+      "intent": "career_advice",
+      "interests": ["teaching", "education", "students"],
+      "careers": ["Teacher", "Professor", "Educational Administrator", "Tutor", "School Counselor"]
+    },
+    {
+      "text": "mujhe engineering aur building mein interest hai",
+      "language": "roman_urdu",
+      "intent": "career_advice",
+      "interests": ["engineering", "building", "construction"],
+      "careers": ["Mechanical Engineer", "Civil Engineer", "Electrical Engineer", "Aerospace Engineer", "Industrial Engineer"]
+    },
+    {
+      "text": "mujhe science aur research mein interest hai",
+      "language": "roman_urdu",
+      "intent": "career_advice",
+      "interests": ["science", "research", "laboratory"],
+      "careers": ["Research Scientist", "Biologist", "Chemist", "Physicist", "Data Analyst"]
+    },
+    {
+      "text": "mujhe law aur justice mein interest hai",
+      "language": "roman_urdu",
+      "intent": "career_advice",
+      "interests": ["law", "justice", "legal"],
+      "careers": ["Lawyer", "Judge", "Paralegal", "Legal Assistant", "Court Reporter"]
+    },
+    {
+      "text": "mujhe sports aur fitness mein interest hai",
+      "language": "roman_urdu",
+      "intent": "career_advice",
+      "interests": ["sports", "fitness", "exercise"],
+      "careers": ["Personal Trainer", "Sports Coach", "Athletic Trainer", "Sports Medicine Physician", "Fitness Instructor"]
+    },
+    {
+      "text": "mujhe media aur communication mein interest hai",
+      "language": "roman_urdu",
+      "intent": "career_advice",
+      "interests": ["media", "communication", "journalism"],
+      "careers": ["Journalist", "News Anchor", "Public Relations Specialist", "Media Producer", "Content Creator"]
+    },
+    {
+      "text": "I am interested in technology and software development",
+      "language": "english",
+      "intent": "career_advice",
+      "interests": ["technology", "software", "development"],
+      "careers": ["Software Engineer", "Web Developer", "Mobile App Developer", "DevOps Engineer", "UI/UX Designer"]
+    },
+    {
+      "text": "I want to become a doctor and help patients",
+      "language": "english",
+      "intent": "career_advice",
+      "interests": ["doctor", "patients", "medical"],
+      "careers": ["Doctor", "Surgeon", "Medical Researcher", "Healthcare Administrator", "Medical Technologist"]
+    },
+    {
+      "text": "mujhe engineering mein interest hai aur machines banane ka shauq hai",
+      "language": "roman_urdu",
+      "intent": "career_advice",
+      "interests": ["engineering", "machines", "mechanical"],
+      "careers": ["Mechanical Engineer", "Industrial Engineer", "Automotive Engineer", "Robotics Engineer", "Manufacturing Engineer"]
+    },
+    {
+      "text": "I love art and want to be creative",
+      "language": "english",
+      "intent": "career_advice",
+      "interests": ["art", "creative", "design"],
+      "careers": ["Graphic Designer", "Artist", "Interior Designer", "Fashion Designer", "Animator"]
+    },
+    {
+      "text": "mujhe science mein interest hai aur research karna pasand hai",
+      "language": "roman_urdu",
+      "intent": "career_advice",
+      "interests": ["science", "research", "laboratory"],
+      "careers": ["Research Scientist", "Biologist", "Chemist", "Physicist", "Data Analyst"]
+    },
+    {
+      "text": "I want to work in finance and banking",
+      "language": "english",
+      "intent": "career_advice",
+      "interests": ["finance", "banking", "money"],
+      "careers": ["Financial Analyst", "Investment Banker", "Bank Manager", "Accountant", "Auditor"]
+    },
+    {
+      "text": "mujhe teaching aur education mein interest hai",
+      "language": "roman_urdu",
+      "intent": "career_advice",
+      "interests": ["teaching", "education", "students"],
+      "careers": ["Teacher", "Professor", "Educational Administrator", "Tutor", "School Counselor"]
+    },
+    {
+      "text": "I am passionate about sports and fitness",
+      "language": "english",
+      "intent": "career_advice",
+      "interests": ["sports", "fitness", "athletics"],
+      "careers": ["Personal Trainer", "Sports Coach", "Athletic Trainer", "Sports Medicine Physician", "Fitness Instructor"]
+    },
+    {
+      "text": "mujhe law aur justice mein interest hai",
+      "language": "roman_urdu",
+      "intent": "career_advice",
+      "interests": ["law", "justice", "legal"],
+      "careers": ["Lawyer", "Judge", "Paralegal", "Legal Assistant", "Court Reporter"]
+    },
+    {
+      "text": "I want to work in management and lead teams",
+      "language": "english",
+      "intent": "career_advice",
+      "interests": ["management", "leadership", "teams"],
+      "careers": ["Project Manager", "Operations Manager", "HR Manager", "Business Manager", "Team Leader"]
+    },
+    {
+      "text": "mujhe police aur army mein interest hai",
+      "language": "roman_urdu",
+      "intent": "career_advice",
+      "interests": ["police", "army", "security", "defense"],
+      "careers": ["Police Officer", "Army Officer", "Security Guard", "Detective", "Military Engineer"]
+    },
+    {
+      "text": "I love cooking and want to be a chef",
+      "language": "english",
+      "intent": "career_advice",
+      "interests": ["cooking", "chef", "food", "culinary"],
+      "careers": ["Chef", "Restaurant Manager", "Food Critic", "Catering Manager", "Pastry Chef"]
+    },
+    {
+      "text": "mujhe philosophy aur deep thinking mein interest hai",
+      "language": "roman_urdu",
+      "intent": "career_advice",
+      "interests": ["philosophy", "thinking", "ethics", "logic"],
+      "careers": ["Philosopher", "Ethics Consultant", "Writer", "Professor", "Think Tank Researcher"]
+    },
+    {
+      "text": "I want to work in arts and be creative",
+      "language": "english",
+      "intent": "career_advice",
+      "interests": ["arts", "creative", "painting", "sculpture"],
+      "careers": ["Artist", "Art Director", "Gallery Curator", "Art Teacher", "Art Therapist"]
+    },
+    {
+      "text": "mujhe writing aur storytelling mein interest hai",
+      "language": "roman_urdu",
+      "intent": "career_advice",
+      "interests": ["writing", "storytelling", "books", "novels"],
+      "careers": ["Writer", "Novelist", "Journalist", "Content Writer", "Screenwriter"]
+    },
+    {
+      "text": "I want to make films and work in cinema",
+      "language": "english",
+      "intent": "career_advice",
+      "interests": ["films", "cinema", "movies", "directing"],
+      "careers": ["Film Director", "Cinematographer", "Film Editor", "Producer", "Screenwriter"]
+    },
+    {
+      "text": "mujhe psychology aur human behavior mein interest hai",
+      "language": "roman_urdu",
+      "intent": "career_advice",
+      "interests": ["psychology", "human behavior", "mind", "therapy"],
+      "careers": ["Psychologist", "Therapist", "Counselor", "Psychiatrist", "Social Worker"]
+    },
+    {
+      "text": "I want to work in environmental science",
+      "language": "english",
+      "intent": "career_advice",
+      "interests": ["environment", "nature", "conservation", "ecology"],
+      "careers": ["Environmental Scientist", "Conservationist", "Ecologist", "Environmental Engineer", "Wildlife Biologist"]
+    },
+    {
+      "text": "mujhe architecture aur building design mein interest hai",
+      "language": "roman_urdu",
+      "intent": "career_advice",
+      "interests": ["architecture", "building", "design", "construction"],
+      "careers": ["Architect", "Urban Planner", "Interior Designer", "Construction Manager", "Building Inspector"]
+    },
+    {
+      "text": "I want to work in aviation and flying",
+      "language": "english",
+      "intent": "career_advice",
+      "interests": ["aviation", "flying", "pilot", "aircraft"],
+      "careers": ["Pilot", "Air Traffic Controller", "Aircraft Engineer", "Flight Attendant", "Aviation Manager"]
+    },
+    {
+      "text": "mujhe music aur singing mein interest hai",
+      "language": "roman_urdu",
+      "intent": "career_advice",
+      "interests": ["music", "singing", "instruments", "composing"],
+      "careers": ["Musician", "Singer", "Music Producer", "Composer", "Music Teacher"]
+    },
+    {
+      "text": "I want to work in fashion and clothing design",
+      "language": "english",
+      "intent": "career_advice",
+      "interests": ["fashion", "clothing", "design", "style"],
+      "careers": ["Fashion Designer", "Fashion Stylist", "Fashion Buyer", "Textile Designer", "Fashion Photographer"]
+    },
+    {
+      "text": "mujhe agriculture aur farming mein interest hai",
+      "language": "roman_urdu",
+      "intent": "career_advice",
+      "interests": ["agriculture", "farming", "crops", "animals"],
+      "careers": ["Farmer", "Agricultural Engineer", "Veterinarian", "Agricultural Scientist", "Farm Manager"]
+    },
+    {
+      "text": "I want to work in real estate and property",
+      "language": "english",
+      "intent": "career_advice",
+      "interests": ["real estate", "property", "housing", "investment"],
+      "careers": ["Real Estate Agent", "Property Manager", "Real Estate Developer", "Appraiser", "Mortgage Broker"]
+    },
+    {
+      "text": "mujhe social work aur helping people mein interest hai",
+      "language": "roman_urdu",
+      "intent": "career_advice",
+      "interests": ["social work", "helping people", "community", "welfare"],
+      "careers": ["Social Worker", "Community Organizer", "NGO Worker", "Counselor", "Humanitarian Worker"]
+    },
+    {
+      "text": "I want to work in logistics and supply chain",
+      "language": "english",
+      "intent": "career_advice",
+      "interests": ["logistics", "supply chain", "transportation", "warehousing"],
+      "careers": ["Logistics Manager", "Supply Chain Analyst", "Warehouse Manager", "Transportation Manager", "Operations Analyst"]
+    },
+    {
+      "text": "mujhe gaming aur video games mein interest hai",
+      "language": "roman_urdu",
+      "intent": "career_advice",
+      "interests": ["gaming", "video games", "programming", "design"],
+      "careers": ["Game Developer", "Game Designer", "Game Tester", "Game Artist", "Game Programmer"]
+    },
+    {
+      "text": "I want to work in cybersecurity and IT security",
+      "language": "english",
+      "intent": "career_advice",
+      "interests": ["cybersecurity", "IT security", "hacking", "protection"],
+      "careers": ["Cybersecurity Analyst", "Information Security Manager", "Ethical Hacker", "Security Consultant", "IT Security Specialist"]
+    }
+  ],
+  "conversation_data": [
+    {
+      "text": "hello",
+      "language": "english",
+      "intent": "greeting",
+      "response": "Hello! I'm your AI Career Advisor. How can I help you today?"
+    },
+    {
+      "text": "hi there",
+      "language": "english", 
+      "intent": "greeting",
+      "response": "Hi! I'm here to help you with career guidance. What would you like to know?"
+    },
+    {
+      "text": "good morning",
+      "language": "english",
+      "intent": "greeting", 
+      "response": "Good morning! I'm your AI Career Advisor. Ready to help you explore career options!"
+    },
+    {
+      "text": "how are you",
+      "language": "english",
+      "intent": "greeting",
+      "response": "I'm doing great! I'm here to help you with career advice. What interests you?"
+    },
+    {
+      "text": "what can you do",
+      "language": "english",
+      "intent": "capabilities",
+      "response": "I can help you find the perfect career based on your interests, skills, and goals. Just tell me what you're passionate about!"
+    },
+    {
+      "text": "help me",
+      "language": "english",
+      "intent": "help",
+      "response": "I'd be happy to help! Tell me about your interests, skills, or what field you'd like to work in, and I'll suggest career paths for you."
+    },
+    {
+      "text": "thank you",
+      "language": "english",
+      "intent": "thanks",
+      "response": "You're welcome! I'm always here to help with career guidance. Feel free to ask anytime!"
+    },
+    {
+      "text": "bye",
+      "language": "english",
+      "intent": "goodbye",
+      "response": "Goodbye! Best of luck with your career journey. Come back anytime for more advice!"
+    },
+    {
+      "text": "salam",
+      "language": "roman_urdu",
+      "intent": "greeting",
+      "response": "Salam! Main aap ka AI Career Advisor hun. Aap ki kaise madad kar sakta hun?"
+    },
+    {
+      "text": "aap kaise hain",
+      "language": "roman_urdu",
+      "intent": "greeting",
+      "response": "Main bilkul theek hun! Main aap ki career guidance ke liye yahan hun. Aap kya janna chahte hain?"
+    },
+    {
+      "text": "aap kya kar sakte hain",
+      "language": "roman_urdu",
+      "intent": "capabilities",
+      "response": "Main aap ke interests, skills aur goals ke base par perfect career suggest kar sakta hun. Bas mujhe bataiye aap kya pasand karte hain!"
+    },
+    {
+      "text": "meri madad kariye",
+      "language": "roman_urdu",
+      "intent": "help",
+      "response": "Bilkul! Mujhe aap ke interests, skills ya field ke bare mein bataiye, main aap ke liye career paths suggest karunga."
+    },
+    {
+      "text": "shukriya",
+      "language": "roman_urdu",
+      "intent": "thanks",
+      "response": "Aap ka welcome! Main hamesha career guidance ke liye yahan hun. Kabhi bhi puch sakte hain!"
+    },
+    {
+      "text": "khuda hafiz",
+      "language": "roman_urdu",
+      "intent": "goodbye",
+      "response": "Khuda hafiz! Aap ki career journey mein best of luck. Kabhi bhi advice ke liye wapas aaiye!"
+    }
+  ]
+}

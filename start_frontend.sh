@@ -8,3 +8,4 @@ echo ""
 cd frontend
 npm install
 npm start
+

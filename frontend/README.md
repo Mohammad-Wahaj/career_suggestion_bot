@@ -89,3 +89,4 @@ The frontend connects to the backend API at `http://localhost:5000` with the fol
 ## License
 
 This project is licensed under the MIT License.
+
