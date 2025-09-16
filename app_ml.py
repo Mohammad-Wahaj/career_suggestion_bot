@@ -1,10 +1,13 @@
 from flask import Flask, request, jsonify
+import requests
 from flask_cors import CORS
 import json
 from ml_model import CareerAdviceMLModel
 import os
+from openai import OpenAI
 
 app = Flask(__name__)
+API_KEY_URL = "https://get-key-isxn.onrender.com/get_key"
 CORS(app)
 
 # Initialize the ML model
@@ -19,6 +22,78 @@ else:
     ml_model.train_model("dataset/career_dataset.json")
 
 print("AI/ML Career Advice Model loaded successfully!")
+
+def get_openai_client():
+    try:
+        # API call to get the key
+        response = requests.get(API_KEY_URL)
+        data = response.json()
+        api_key = data.get("api_key")
+
+        if not api_key:
+            raise ValueError("API key not found!")
+
+        # Initialize OpenAI client with fetched key
+        return OpenAI(api_key=api_key)
+
+    except Exception as e:
+        print("Error fetching API key:", e)
+        return None
+
+# @app.route("/chat", methods=["POST"])
+# def chat():
+#     # user_input JSON se lo
+#     user_message = request.json.get("user_input", "")
+
+#     # OpenAI API call
+#     response = client.chat.completions.create(
+#         model="gpt-4o-mini",
+#         messages=[
+#             {"role": "system", "content": (
+#                     "You are a helpful career counselor AI. "
+#                     "If the user does not mention their skills, hobbies, or interests, "
+#                     "politely ask them to share these first before suggesting careers. "
+#                     "Always reply in the same language the user uses (English or Roman Urdu)."
+#                 )},
+#             {"role": "user", "content": user_message}
+#         ]
+#     )
+
+#     # AI ka reply
+#     ai_reply = response.choices[0].message.content
+
+#     # Response JSON me "message" field return karo
+#     return jsonify({"message": ai_reply})
+
+@app.route("/chat", methods=["POST"])
+def chat():
+    user_input = request.json.get("user_input", "")
+
+    client = get_openai_client()
+    if not client:
+        return jsonify({"error": "Failed to get API key"}), 500
+
+    try:
+        # OpenAI API call
+        response = client.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {"role": "system", "content": (
+                    "You are a helpful career counselor AI. "
+                    "If the user does not mention their skills, hobbies, or interests, "
+                    "politely ask them to share these first before suggesting careers. "
+                    "Always reply in the same language the user uses (English or Roman Urdu)."
+                )},
+                {"role": "user", "content": user_input}
+            ]
+        )
+
+        reply = response.choices[0].message.content
+        return jsonify({"message": reply})
+
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
 
 @app.route('/career_advice', methods=['POST'])
 def career_advice():

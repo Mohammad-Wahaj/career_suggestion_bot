@@ -39,7 +39,7 @@ function App() {
     setIsLoading(true);
 
     try {
-      const response = await axios.post('/career_advice', {
+      const response = await axios.post('/chat', {
         user_input: inputValue
       });
 
