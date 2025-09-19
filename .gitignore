@@ -203,3 +203,4 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
+"models/career_model.pkl" 
